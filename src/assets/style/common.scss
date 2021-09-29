@@ -13,17 +13,20 @@ a {
     color: #000;
 }
 
+// style lists
+ul {
+    list-style: none;
+}
+
 // container sections
 .container {
     width: 75%;
+    height: 100%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.footer_top {
-    height: 23.125rem;
-    background-image: url('~@/assets/img/footer-bg.jpg');
-}
+
 

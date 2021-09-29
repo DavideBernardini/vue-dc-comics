@@ -56,7 +56,6 @@ export default {
     background-color: $mainColor;
     display: flex;
     ul {
-        list-style: none;
         margin: auto;
         li {
             display: inline-block;
