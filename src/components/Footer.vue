@@ -139,10 +139,11 @@ export default {
     height: 6.875rem;
     background-color: #303030;
     .sign_up {
-            font-size: 1.25rem;
+            font-size: .9375rem;
             color: #fff;
             border: 1px solid $mainColorDarker;
             padding: .875rem .75rem;
+            font-family: Arial, Helvetica, sans-serif
         }
     .social {
         h3 {
