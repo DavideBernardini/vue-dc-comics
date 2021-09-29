@@ -1,6 +1,11 @@
 <template>
     <footer>
-        <h2> Questo è il footer </h2>
+        <div class="footer_top">
+
+        </div>
+        <div class="footer_bottom">
+            
+        </div>
     </footer>
 </template>
 
@@ -11,5 +16,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/assets/style/variables.scss";
+
 
 </style>

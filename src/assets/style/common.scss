@@ -1,0 +1,29 @@
+// reset
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+// font
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+// style links
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+// container sections
+.container {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_top {
+    height: 23.125rem;
+    background-image: url('~@/assets/img/footer-bg.jpg');
+}
+
