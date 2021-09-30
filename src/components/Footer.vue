@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <div class="logo_bg">
-                    <img src="@/assets/img/dc-logo-bg.png" alt="logo DC comics big">
+                    <img src="../assets/img/dc-logo-bg.png" alt="logo DC comics big">
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
                     <ul>
                         <li v-for="(link, index) in social" :key="index">
                             <a href="#">
-                                <img :src="require(`@/assets/img//${link.icon}`)" :alt="link.alt">
+                                <img :src="require(`../assets/img//${link.icon}`)" :alt="link.alt">
                             </a>
                         </li>
                     </ul>
@@ -109,11 +109,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/style/variables.scss";
+@import "../assets/style/variables.scss";
 
 .footer_top {
     height: 23.125rem;
-    background-image: url('~@/assets/img/footer-bg.jpg');
+    background-image: url('../assets/img/footer-bg.jpg');
     overflow: hidden;
     .links {
         display: flex;
@@ -160,6 +160,7 @@ export default {
                 padding: 0 .4375rem;
                 img {
                     vertical-align: middle;
+                    
                 }
             }
         }
@@ -167,3 +168,4 @@ export default {
     
 }
 </style>
+

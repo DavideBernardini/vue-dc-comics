@@ -3,7 +3,7 @@
         <ul>
             <li v-for="(link, index) in links" :key="index">
                 <a href="#">
-                    <img :src="require(`@/assets/img//${link.icon}`)" :alt="link.iconAlt">
+                    <img :src="require(`../assets/img//${link.icon}`)" :alt="link.iconAlt">
                     <span>{{link.text}}</span>
                 </a>
             </li>
@@ -49,7 +49,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/style/variables.scss";
+@import "../assets/style/variables.scss";
 
 .usefull_links {
     height: 9.375rem;

@@ -2,7 +2,7 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <img src="@/assets/img/dc-logo.png" alt="logo DC comics">
+                    <img src="../assets/img/dc-logo.png" alt="logo DC comics">
                 </div>
                 <nav>
                     <ul>
@@ -69,7 +69,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/style/variables.scss";
+@import "../assets/style/variables.scss";
 
 header {
     height: 7.1875rem;

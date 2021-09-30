@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import Header from '@/components/Header';
-import Main from '@/components/Main';
-import Footer from '@/components/Footer';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/style/common.scss";
+@import "./assets/style/common.scss";
 
 #app {
   font-family: 'PT Sans Narrow', sans-serif;
