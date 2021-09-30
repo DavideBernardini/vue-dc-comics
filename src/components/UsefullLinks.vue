@@ -34,7 +34,7 @@ export default {
                 },
                 {
                     text: 'COMIC SHOP LOCATOR',
-                    icon: 'buy-comics-subscriptions.png',
+                    icon: 'buy-comics-shop-locator.png',
                     iconAlt: 'icon pin'
                 },
                 {
