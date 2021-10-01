@@ -18,9 +18,11 @@ export default {
 @import "../assets/style/variables.scss";
 .comic {
             padding-top: 2.8125rem;
-            // width: 10.9375rem;
             width: calc(100% / 6);
+            text-align: center;
             a {
+                display: inline-block;
+                width: 10.9375rem;
                 img {
                     height: 10.9375rem;
                     width: 10.9375rem;
@@ -33,6 +35,7 @@ export default {
                     font-weight: normal;
                     width: 90%;
                     text-transform: uppercase;
+                    text-align: initial;
                 }
             }
             
