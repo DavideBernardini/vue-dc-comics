@@ -18,23 +18,20 @@ export default {
 @import "../assets/style/variables.scss";
 .comic {
             padding-top: 2.8125rem;
-            width: calc(100% / 6);
+            width: 10.9375rem;
             a {
-                text-align: center;
                 img {
                     height: 10.9375rem;
-                    width: 10.9375rem;
+                    width: 100%;
                     object-fit: cover;
                     object-position: top;
                 }
                 h4 {
                     color: #fff;
-                    padding-top: 1.25rem;
+                    padding-top: 1.125rem;
                     font-weight: normal;
-                    font-size: 1.25rem;
                     width: 90%;
                     text-transform: uppercase;
-                    text-align: initial;
                 }
             }
             

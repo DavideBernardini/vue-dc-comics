@@ -46,7 +46,7 @@ export default {
     justify-content: center;
 }
 .comics {
-    height: 690px;
+    height: 43.125rem;
     background-color: #1c1c1c;
     color: #fff;
     .container {
@@ -57,6 +57,7 @@ export default {
             background-color: $mainColor;
             position: absolute;
             top: 0;
+            left: 0;
             transform: translateY(-50%);
         }
     }
@@ -64,7 +65,7 @@ export default {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
     }
     button {
         margin-top: 2.8125rem;
