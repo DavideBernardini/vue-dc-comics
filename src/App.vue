@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header/>
+    <Hero :bgImage="require('./assets/img/jumbotron.jpg')"/>
     <Main/>
     <Footer/>
   </div>
@@ -8,6 +9,7 @@
 
 <script>
 import Header from './components/Header';
+import Hero from './components/Hero';
 import Main from './components/Main';
 import Footer from './components/Footer';
 
@@ -16,7 +18,8 @@ export default {
   components: {
     Header,
     Main,
-    Footer
+    Footer,
+    Hero
   }
 }
 </script>

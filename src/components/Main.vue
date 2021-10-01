@@ -1,6 +1,5 @@
 <template>
     <main>
-        <div class="jumbo titans"></div>
         <div class="comics">
             <div class="container">
                 <h2>CURRENT SERIES</h2>
@@ -27,8 +26,9 @@ export default {
     },
     data() {
         return {
-            myJason: json
+            myJason: json,
         }
+        
     }
 }
 </script>
@@ -36,11 +36,6 @@ export default {
 <style scoped lang="scss">
 @import "../assets/style/variables.scss";
 
-.jumbo.titans {
-    height: 25rem;
-    background-image: url('../assets/img/jumbotron.jpg');
-    background-size: cover;
-}
 .container {
     flex-direction: column;
     justify-content: center;
