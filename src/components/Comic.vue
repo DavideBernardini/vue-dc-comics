@@ -18,11 +18,12 @@ export default {
 @import "../assets/style/variables.scss";
 .comic {
             padding-top: 2.8125rem;
-            width: 10.9375rem;
+            // width: 10.9375rem;
+            width: calc(100% / 6);
             a {
                 img {
                     height: 10.9375rem;
-                    width: 100%;
+                    width: 10.9375rem;
                     object-fit: cover;
                     object-position: top;
                 }
